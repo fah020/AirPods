@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a,li{
+    text-transform: uppercase;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.link{
+    font-size: 20px;
+    font-weight: 600;
+}
+.list{
+    display:flex;
+    column-gap: 20px;
+    align-items: center;
+}
+
+
+.content{
+    margin-top: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+
+.poragrf{
+    width: 400px;
+}
+.img{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border-radius: 50%;
+}
